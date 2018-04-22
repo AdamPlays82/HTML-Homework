@@ -1,0 +1,46 @@
+.box {
+    border-style: solid;
+    border-color: lightcoral;
+    z-index: 1;
+    position: absolute;
+    width: 96%;
+    margin: 125px 2% 200px 2%;
+}
+
+.profilepic { 
+    background: url(Adam_bw_contrastsmall.jpg) 34% 22% no-repeat; 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -130px;
+    border: 5px solid lightcoral;
+    padding: 70px;
+    z-index: 2;
+  }
+
+.intro {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: -30px;
+  }
+
+  .coral {
+    color: lightcoral;
+  }
+
+  .bold {
+    font-style: bold;
+  }
+
+  .font {
+    font-family: 'Lato', sans-serif;
+  }
+
+  .padding {
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: -20px;
+  }
