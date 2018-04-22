@@ -1,19 +1,16 @@
 .box {
-    border-style: solid;
-    border-color: lightcoral;
-    z-index: 1;
-    position: absolute;
-    width: 96%;
-    margin: 125px 2% 200px 2%;
+  width: 96%;
+  margin: 100px 2% 200px 2%;
+  padding: 20px;
 }
 
 .profilepic { 
-    background: url(Adam_bw_contrastsmall.jpg) 34% 22% no-repeat; 
-    width: 200px;
-    height: 200px;
+    background: url(Adam_bw_contrastsmall.jpg) 34% 20% no-repeat; 
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin: auto;
-    margin-top: -130px;
+    margin-top: -100px;
     border: 5px solid lightcoral;
     padding: 70px;
     z-index: 2;
@@ -21,10 +18,10 @@
 
 .intro {
     font-family: 'Lato', sans-serif;
-    font-size: 30px;
+    font-size: 30pt;
     text-align: center;
-    margin-top: -30px;
-    margin-bottom: -30px;
+    margin-top: 14pt;
+    margin-bottom: 20pt;
   }
 
   .coral {
@@ -39,8 +36,55 @@
     font-family: 'Lato', sans-serif;
   }
 
+  .fontsizeheader {
+    font-size: 25pt;
+  }
+
+  .fontsizebody {
+    font-size: 18pt;
+  }
+
+  .fontsizesmall {
+    font-size: 12pt;
+  }
+
   .padding {
-    padding-top: 5px;
-    padding-left: 10px;
-    margin-top: -20px;
+    padding-left: 30px;
+  }
+
+  .margin {
+    margin-top: 20px;
+  }
+
+  .marginbody {
+    margin-top: 5px;
+  }
+
+  table {
+    width: 70%;
+    text-align: left;
+    
+  }
+
+  .skillbox {
+    background-color: lightcoral;
+    color: white;
+    width: 20%;
+    border-width: 3px;
+    border: white;
+    border-style: solid;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .hobbiesbox {
+    background-color: lightcoral;
+    color: white;
+    width: 20%;
+    border-width: 3px;
+    border: white;
+    border-style: solid;
+    text-align: center;
+    padding: 15px;
+    float: left;
   }
